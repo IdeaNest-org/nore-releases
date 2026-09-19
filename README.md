@@ -1,12 +1,8 @@
-# Nore
+# Nore Releases
 
-Nore is a native network proxy utility for macOS and Windows. It provides
-rule-based traffic routing, subscription-managed endpoints, automatic
-latency-based endpoint selection with failover, and live traffic and
-connection monitoring — in a clean, native interface.
-
-This repository is the distribution channel for Nore. It hosts build
-artifacts along with the automatic-update feed, and contains no source code.
+This repository is the **distribution channel** for Nore. It hosts build
+artifacts and the automatic-update feed. It contains no source code and is
+not the project's homepage.
 
 ## Download
 
@@ -19,25 +15,11 @@ Get the latest version from the
 | macOS (Intel) | `Nore-x.y.z.dmg` | Signed and notarized |
 | Windows 10/11 (x64) | `Nore-Setup-x.y.z.exe` | Unsigned; SmartScreen may warn — choose "Run anyway" |
 
-## Features
-
-- Rule-based routing with per-destination policies
-- Subscription import and endpoint management
-- Automatic, latency-based endpoint selection and failover
-- Local network sharing between devices on the same network (macOS)
-- Live traffic charts and detailed connection logs
-- Self-updating on both platforms
-
-## Requirements
-
-- macOS on Apple Silicon or Intel
-- Windows 10 or 11 (64-bit)
-
 ## Updates
 
-The app checks this repository and updates itself automatically.
-Update integrity is verified against the SHA-512 checksums published in
-the update feed (`latest-mac.yml` / `latest.yml`).
+Installed apps check this repository and update automatically. Update
+integrity is verified against the SHA-512 checksums published in the update
+feed (`latest-mac.yml` / `latest.yml`).
 
 ## Contact
 
